@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012, The CyanogenMod Project
+ * Copyright (C) 2012-2013, The CyanogenMod Project
  * Copyright (C) 2015 The OmniROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

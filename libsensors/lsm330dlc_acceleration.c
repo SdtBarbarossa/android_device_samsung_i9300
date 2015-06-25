@@ -248,7 +248,7 @@ int lsm330dlc_acceleration_activate(struct smdk4x12_sensors_handlers *handlers)
 		ALOGE("%s: Unable to set lsm330dlc acceleration enable", __func__);
 		return -1;
 	}
-
+	
 	handlers->activated = 1;
 	pthread_mutex_unlock(&data->mutex);
 
