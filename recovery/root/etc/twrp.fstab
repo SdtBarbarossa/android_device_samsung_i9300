@@ -6,5 +6,5 @@
 /data           ext4        /dev/block/platform/dw_mmc/by-name/USERDATA
 /preload        ext4        /dev/block/platform/dw_mmc/by-name/HIDDEN
 
-/external_sd    vfat        /dev/block/platform/s3c-sdhci.2/by-num/p1   flags=display="Micro SDCard";storage;wipeingui;removable
+/external_sd            vfat            /dev/block/mmcblk1p1	/dev/block/mmcblk1   flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg        vfat        /dev/block/sda1     /dev/block/sda          flags=removable;storage;display=USB-OTG
